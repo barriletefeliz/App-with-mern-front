@@ -1,0 +1,16 @@
+.conditional-component {
+    background-image: url('../../../Assets/bg-red.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid black;
+    min-height: 172px;
+    .text-container{
+        padding: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .conditional-component{
+        display: none;
+    }
+}

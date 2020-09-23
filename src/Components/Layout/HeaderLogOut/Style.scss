@@ -1,0 +1,35 @@
+$gray: #282c34;
+$red: #d90a28;
+$blue: #004db5;
+$yellow: #e0c504;
+
+.log-out-container{
+    border-left: 5px solid black ;
+    flex-shrink: 0;
+    background-image: url('../../../Assets/bg-blue-logout.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid black;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    .log-out{
+        font-family: 'Roboto Mono', monospace;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        display: block;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }    
+
+}
+@media (max-width: 767px) {
+    .log-out-container {
+        background-image: url('../../../Assets/bg-red.jpg');
+        padding: 3rem;
+    }
+}

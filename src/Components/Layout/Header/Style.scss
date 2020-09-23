@@ -1,0 +1,19 @@
+.app-header{
+    background-image: url('../../../Assets/bg-yellow.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid black;
+    align-items: center;
+    padding: 4rem;
+    flex-grow: 8;
+    .user-name {
+        color: var(--blanco);
+        font-size: 2.3rem;
+        margin: 0;
+        .header-name{
+            text-transform: capitalize;
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+      }
+}

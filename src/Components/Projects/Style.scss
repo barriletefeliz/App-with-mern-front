@@ -1,0 +1,21 @@
+.container-all {
+    border: 5px solid black;
+    .dubleheader {
+        display: flex;
+    }
+    .contenedor-app {
+        .principal-section {
+            overflow: hidden;
+        }
+    }
+}
+@media (min-width: 768px) {
+    .contenedor-app {
+        display: flex;
+        min-height: 100vh;
+        .principal-section {
+            flex: 1;
+        }
+    }
+  
+  }

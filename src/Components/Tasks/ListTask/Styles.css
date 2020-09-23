@@ -1,0 +1,37 @@
+
+.contenedor-principal-tareas{
+    margin: 3rem;
+    align-items: center;
+    
+}
+
+.task-title{
+    text-transform: capitalize;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 3rem;
+}
+
+.task-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+
+.prueba{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-btn-delete{
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.delete-proj-btn{
+    align-items: center;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+

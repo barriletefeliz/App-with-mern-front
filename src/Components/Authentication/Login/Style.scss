@@ -1,0 +1,100 @@
+$gray: #282c34;
+$red: #d90a28;
+$blue: #004db5;
+$yellow: #e0c504;
+
+.form-usuario {
+    height: 100vh;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .contenedor-form {
+      /*  border-radius: 8px; */
+        padding: 5rem 3rem;
+        max-width: 500px;
+        width: 95%;
+        background-color: var(--blanco);
+        .login-tittle{
+            text-align: center;
+            align-items: center;
+            margin-bottom: 5rem;
+        }
+        .link-route {
+            margin-top: 2rem;
+            display: block;
+            opacity: .7;
+            text-align: end;
+            color: $gray;
+            pointer-events: none; 
+            .icon-back{
+                font-size: 2.5rem;
+            }
+            .pointer{
+                pointer-events: visible;  
+            }
+            .get-count:hover,
+            .icon-back:hover {
+                color: #004db5;
+            }
+        } 
+        .inputs-container{
+            margin-bottom: 3.6rem;
+        }
+        .wrapper-input { 
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin: 20px 0px;
+            border: 1px solid #646870;
+            border-radius: 3px;
+            .wrapper-icon{
+                .icon-input{
+                    margin: 0 10px;
+                    color: $gray;
+                }
+                .icon-input-alert {
+                    margin: 0 14px;
+                }
+            }
+        }
+        .wrapper-input input {
+            padding: 5px;
+            width: 100%;
+            font-size: 12px;
+            border: 0;
+            outline: none;
+        }
+        .wrapper-btn {
+
+            
+
+
+        }
+
+
+    }
+    .mern-picture {
+        margin-top: 10rem;
+        font-family: 'Lekton';
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    position: relative;
+}
+.bg-login {
+    background-image: url('../../../Assets/bg-white.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,43 @@
+$gray: #282c34;
+$red: #d90a28;
+$blue: #004db5;
+$yellow: #e0c504;
+
+.mern-container{
+      /*  position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+    align-items: center; 
+    letter-spacing: 4px; */
+    margin-bottom: 2rem;
+    font-family: "lekton", sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+
+    .letters{
+        display: flex;
+        .letter {
+            padding: 1px 15px;
+            border-left: 3px solid black;
+            border-top: 3px solid black;
+            border-bottom: 3px solid black;
+            background-color: #ffff;
+            font-size: 2rem;
+            flex-grow: 8;
+        }
+        .e{
+            background-color: $red;
+        }
+        .r{
+            background-color: $blue;
+        }
+        .letter:nth-child(4n) {
+            border-right: 3px solid black;
+            flex-shrink: 0;
+            background-color: $yellow;
+        
+        }
+    }
+}

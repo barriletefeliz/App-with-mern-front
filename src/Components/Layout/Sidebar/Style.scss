@@ -1,0 +1,31 @@
+.sidebar {
+    background-image: url('../../../Assets/bg-blue.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-right: 5px solid black;
+    border-bottom: 0px;
+    padding: 3rem;
+    flex: 0 0 300px;
+    .title-app{
+        font-size: 3.5rem;
+        opacity: 0.8;
+        margin-bottom: 2.6rem;
+    }
+    .projects {
+        margin-top: 10rem;
+        .tipografia{
+            font-family: 'Kumbh Sans', sans-serif;
+            margin-bottom: 50px;
+            color: rgb(207, 206, 206);
+        }
+    }
+}
+@media (max-width: 767px) {
+    .sidebar {
+        border-right: 0px;
+        border-bottom: 0px;
+    }
+
+}

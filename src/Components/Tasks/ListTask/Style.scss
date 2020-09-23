@@ -1,0 +1,38 @@
+$gray: #282c34;
+$red: #d90a28;
+$blue: #004db5;
+$yellow: #e0c504;
+
+.wrapper-tasks{
+    margin: 3rem;
+    align-items: center;
+    .task-title {
+        text-transform: capitalize;
+        font-family: 'Roboto Mono', monospace;
+        margin-bottom: 3rem;
+    }
+    .task-list {
+        max-width: 600px;
+        margin: 0 auto;
+        .tarea {
+            
+        }
+    }
+    .container-btn-delete {
+        display: flex;
+        justify-content: flex-end;
+        .delete-proj-btn{
+            align-items: center;
+
+            padding: 10px;
+            font-size: 1.3rem;
+            .text-delete:hover {
+                color: #ffffff;
+            }
+            .icon-delete {
+                align-items: center;
+                margin-left: 5px;
+            }
+        }
+    }
+}

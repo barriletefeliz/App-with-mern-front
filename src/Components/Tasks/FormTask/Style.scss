@@ -1,0 +1,19 @@
+.formulario-bg-red{
+    background-image: url('../../../Assets/bg-red.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid black;
+    padding: 3rem;
+    .contenedor-input {
+        .input-text {
+
+        }
+    }
+
+}
+@media (max-width: 767px) {
+    .formulario-bg-red{
+        border-top: 5px solid black;
+    }
+}

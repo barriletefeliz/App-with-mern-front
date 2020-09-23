@@ -1,0 +1,65 @@
+$gray: #282c34;
+$red: #d90a28;
+$blue: #004db5;
+$yellow: #e0c504;
+
+.footer-icon{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px 10rem;
+    .icon-footer {
+      width: 80px;
+      height: 80px;
+    }
+
+    .node {
+        width: 45px;
+        height: 45px;
+    }
+    .sass-logo {
+      width: 50px;
+      height: 50px;
+    }
+
+    
+    @media (prefers-reduced-motion: no-preference) {
+        .react-logo {
+          animation: App-logo-spin infinite 20s linear;
+        }
+      }
+    
+    @keyframes App-logo-spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    
+}
+@media (max-width:650px) {
+  .footer-icon{
+    padding: 10px 2rem;
+    .icon-footer {
+      width: 50px;
+      height: 50px;
+    }
+    .node {
+      width: 35px;
+      height: 35px;
+    }
+    .sass-logo {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+}
+
+  

@@ -1,0 +1,15 @@
+$gray: #282c34;
+
+.item-project{
+    color: rgb(207, 206, 206);
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+
+}
+.item-project:hover{
+    font-size: 1.8rem;
+    color: rgb(230, 230, 230);
+}
+  
