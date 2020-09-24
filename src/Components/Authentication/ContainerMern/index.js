@@ -5,7 +5,7 @@ import './Style.scss';
 const ContainerMern = () => (
     <div className="mern-container shadow">
         
-                <section class="letters">
+                <section className="letters">
                     <span className="letter">M</span>
                     <span className="letter e">E</span>
                     <span className="letter r">R</span>
