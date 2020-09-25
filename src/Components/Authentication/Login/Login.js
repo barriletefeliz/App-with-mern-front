@@ -76,34 +76,34 @@ const Login = (props) => {
                
                { alert ? (
                    <div>
-                        <div className="wrapper-input red">
+                        <div className="wrapper-input">
                             <input
                                 type="email" 
                                 id="email"
                                 name="email"
                                 placeholder="Ingresa tu email"
                                 className="input"
-                                value={email}
-                                onChange={onChange}
+                                value={ email }
+                                onChange={ onChange }
                             />
                             <div className="wrapper-icon">
-                                <FontAwesomeIcon icon={ faExclamation } className="icon-input-alert"/>
+                                <FontAwesomeIcon icon={ faExclamation } className="icon-input-alert color-red"/>
                             </div>
                             <label className="label-input" htmlFor="email"></label>
                         </div>
 
-                        <div className="wrapper-input red">
+                        <div className="wrapper-input">
                             <input
                                 type="password"
                                 id="password"
                                 name="password"
                                 placeholder="Ingresa tu password"
                                 className="alert-error"
-                                value={password}
-                                onChange={onChange}
+                                value={ password }
+                                onChange={ onChange }
                             />                                 
                             <div className="wrapper-icon">
-                                <FontAwesomeIcon icon={ faExclamation } className="icon-input-alert"/>
+                                <FontAwesomeIcon icon={ faExclamation } className="icon-input-alert color-red"/>
                             </div>
                             <label className="" htmlFor="inputDanger1"></label>
                         </div>
@@ -112,23 +112,23 @@ const Login = (props) => {
                    </div>
                     ) : 
                     <div className="inputs-container">
-                        <div className="wrapper-input yellow">
+                        <div className="wrapper-input">
                             <input
                                 type="email" 
                                 id="email"
                                 name="email"
                                 placeholder="Ingresa tu email"
                                 className="input"
-                                value={email}
-                                onChange={onChange}
+                                value={ email }
+                                onChange={ onChange }
                             />
                             <div className="wrapper-icon">
-                                <FontAwesomeIcon icon={faEnvelope} className="icon-input"/>
+                                <FontAwesomeIcon icon={ faEnvelope } className="icon-input color-yellow"/>
                             </div>
                             <label className="label-input" htmlFor="email"></label>
                         </div>
 
-                        <div className="wrapper-input blue">
+                        <div className="wrapper-input">
                             <input
                                 type="password"
                                 id="password"
@@ -139,17 +139,17 @@ const Login = (props) => {
                                 onChange={onChange}
                             />
                             <div className="wrapper-icon">
-                                <FontAwesomeIcon icon={ faUnlock } className="icon-input"/>
+                                <FontAwesomeIcon icon={ faUnlock } className="icon-input color-yellow"/>
                             </div>
                             <label className="alert-error" htmlFor="password"></label>
                         </div>
                     </div>
                     }
 
-                    <div className="campo-form">
+                    <div className="wrapper-btn">
                         <input 
                             type="submit" 
-                            className="yellow btn btn-block shadow" 
+                            className="yellow btn-send shadow" 
                             value="Enviar"
                             />
                         </div>

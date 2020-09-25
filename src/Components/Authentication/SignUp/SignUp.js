@@ -96,7 +96,7 @@ const SignUp = (props) => {
 
                     { alert ? (
                         <div>
-                            <div className="wrapper-input red">
+                            <div className="wrapper-input">
                                 <input
                                     type="text"
                                     id="name"
@@ -107,12 +107,12 @@ const SignUp = (props) => {
                                     onChange={onChange}
                                 />
                                 <div className="wrapper-icon">
-                                    <FontAwesomeIcon icon={ faExclamation } className="icon-input-alert"/>
+                                    <FontAwesomeIcon icon={ faExclamation } className="icon-input-alert color-red"/>
                                 </div>
                                 <label className="label-input" htmlFor="inputDanger1"></label>
                             </div>
 
-                            <div className="wrapper-input red">
+                            <div className="wrapper-input">
                             <input
                                 type="email"
                                 id="email"
@@ -123,12 +123,12 @@ const SignUp = (props) => {
                                 onChange={onChange}
                             />
                             <div className="wrapper-icon">
-                                <FontAwesomeIcon icon={ faExclamation } className="icon-input-alert"/>
+                                <FontAwesomeIcon icon={ faExclamation } className="icon-input-alert color-red"/>
                             </div>
                             <label className="form-control-label" htmlFor="inputDanger1"></label>
                             </div>
 
-                            <div className="wrapper-input red">
+                            <div className="wrapper-input">
                             <input
                                 type="password"
                                 id="password"
@@ -139,12 +139,12 @@ const SignUp = (props) => {
                                 onChange={onChange}
                             />
                                 <div className="wrapper-icon">
-                                    <FontAwesomeIcon icon={ faExclamation } className="icon-input-alert"/>
+                                    <FontAwesomeIcon icon={ faExclamation } className="icon-input-alert color-red"/>
                                 </div>
                             <label className="form-control-label" htmlFor="inputDanger1"></label>
                             </div>
 
-                            <div className="wrapper-input red">
+                            <div className="wrapper-input">
                             <input
                                 type="password"
                                 id="confirm"
@@ -155,7 +155,7 @@ const SignUp = (props) => {
                                 onChange={onChange}
                             />
                                 <div className="wrapper-icon">
-                                    <FontAwesomeIcon icon={ faExclamation } className="icon-input-alert"/>
+                                    <FontAwesomeIcon icon={ faExclamation } className="icon-input-alert color-red"/>
                                 </div>
                             <label className="form-control-label" htmlFor="inputDanger1"></label>
                             </div>
@@ -163,7 +163,7 @@ const SignUp = (props) => {
                         </div>
                     ) : 
                         <div>
-                            <div className="wrapper-input yellow">
+                            <div className="wrapper-input">
                         <input
                             type="text"
                             id="name"
@@ -174,12 +174,12 @@ const SignUp = (props) => {
                             onChange={onChange}
                         />
                                 <div className="wrapper-icon">
-                                    <FontAwesomeIcon icon={ faUser } className="icon-input"/>
+                                    <FontAwesomeIcon icon={ faUser } className="icon-input color-blue"/>
                                 </div>
                         <label className="control-label" htmlFor="disabledInput"></label>
                         </div>
 
-                        <div className="wrapper-input blue">
+                        <div className="wrapper-input">
                             <input
                                 type="email"
                                 id="email"
@@ -190,7 +190,7 @@ const SignUp = (props) => {
                                 onChange={onChange}
                             />
                                 <div className="wrapper-icon">
-                                    <FontAwesomeIcon icon={ faEnvelope } className="icon-input"/>
+                                    <FontAwesomeIcon icon={ faEnvelope } className="icon-input color-blue"/>
                                 </div>
                             <label className="control-label" htmlFor="disabledInput"></label>
                         </div>
@@ -206,7 +206,7 @@ const SignUp = (props) => {
                                     onChange={onChange}
                                 />
                                 <div className="wrapper-icon">
-                                    <FontAwesomeIcon icon={ faUnlock } className="icon-input"/>
+                                    <FontAwesomeIcon icon={ faUnlock } className="icon-input color-blue"/>
                                 </div>
                                 <label className="control-label" htmlFor="disabledInput"></label>
                             </div>
@@ -222,7 +222,7 @@ const SignUp = (props) => {
                                 onChange={onChange}
                             />
                                 <div className="wrapper-icon">
-                                    <FontAwesomeIcon icon={ faUnlock } className="icon-input"/>
+                                    <FontAwesomeIcon icon={ faUnlock } className="icon-input color-blue"/>
                                 </div>
                             <label className="control-label" htmlFor="disabledInput"></label>
                         </div>
@@ -230,13 +230,11 @@ const SignUp = (props) => {
 
                     </div>
                     }
-                        
 
-
-                    <div className="form-group">
+                    <div className="wrapper-btn">
                         <input 
                             type="submit" 
-                            className="yellow btn btn-block" 
+                            className="blue btn-send" 
                             value="Registrarme"
                         />
                     </div>
